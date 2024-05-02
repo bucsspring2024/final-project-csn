@@ -1,19 +1,18 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=14588522&assignment_repo_type=AssignmentRepo)
 
-:warning: Everything between << >> needs to be replaced (remove << >> after replacing)
 
-# << Welcome to my Library! >>
-## CS110 Final Project  << Spring, 2024 >>
+# Welcome to my Library!
+## CS110 Final Project Spring, 2024 
 
 ## Team Members
 
-<< Christine Nemecek >>
+Christine Nemecek 
 
 ***
 
 ## Project Description
 
-<< I would like to create a program that simulates a digital library and showcases excerpts of books when you click on them. They will be on what appear to be digital bookshelves and open up to show you the inside of them with passages from the stories!>>
+I would like to create a program that simulates a digital library and showcases different Harry Potter spells when you click on them. Each time you open a book you will get a different spell, and you can save your favorites!
 
 ***    
 
@@ -25,25 +24,31 @@
 
 ### Final Design
 
-![final gui](assets/finalgui.jpg)
+![final gui](assets/Library.png)
 
 ## Program Design
 
 ### Features
 
-1. << welcome/start menu >>
-2. << interactive books, click and open >>
-3. << movement of book to main screen/enlarged>>
-4. << windowpane with scrolling background of clouds >>
-5. << background music >>
+1. welcome/start menu 
+2. interactive bookshelf, open book
+3. save book button
+4. windowpane with scrolling background of clouds
+5. clear saved book screen
 
 ### Classes
 
-- << 
-1. class Book: contains some of the code initializing the book, and allows it to be moved to either the left or the right of the screen
+- Book: initializes book that will pop up on the screen, creates rect and sets up sizing
+- Window: initializes code for the moving clouds
+- API: sets up my external API to call a random spell every time the code is run and set up in a tuple
+- BookSave: initializes book that will pop up on the screen to track saved spells, creates rect and sets up sizing
+- BookShelf: initializes bookshelf, creates rect and sets up sizing
+- Button: initializes the image, sizing and rect of the buttons that will be utilized
+- FrontDesk: initializes front desk, creates rect for coding collision
+- Heart: initializes heart that will pop up on book excerpts, creates rect and sets up sizing
+- Library: initializes the main background, sizing
+- Reset: Has the reset button for clearing the book of saved spells, sets up sizing and creates rect
 
-2. class Window: initializes code for the moving clouds, has code for it to be moving towards the right of the screen.
->>
 
 ## ATP
 Test Case 1: Menu Selection
