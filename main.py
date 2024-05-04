@@ -1,8 +1,13 @@
 import pygame
+import math
 #import your controller
+from src import Controller
 
 def main():
     pygame.init()
+    cont = Controller.Controller()
+    cont.mainloop()
+    
     #Create an instance on your controller object
     #Call your mainloop
     
